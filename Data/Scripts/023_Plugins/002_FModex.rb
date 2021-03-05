@@ -7,7 +7,6 @@
 #---
 #Script written by the menbers of the Community Script Project
 #===
-if !mkxp?
 module Audio
   LOOP_TABLE = [
   # [ "Audio/xxx/File_name", begin, end ]
@@ -155,5 +154,4 @@ module Audio
     end
   end
   end
-end
 end
