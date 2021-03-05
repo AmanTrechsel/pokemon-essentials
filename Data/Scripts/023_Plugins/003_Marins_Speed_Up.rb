@@ -30,7 +30,6 @@ PluginManager.register({
 SPEEDUP_STAGES = [1,2]
 
 $CanToggle = $DEBUG
-
 def pbAllowSpeedup
   $CanToggle = true
   $CanToggle = false if !$DEBUG
